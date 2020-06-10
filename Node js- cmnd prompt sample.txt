@@ -1,0 +1,238 @@
+Microsoft Windows [Version 10.0.16299.1868]
+(c) 2017 Microsoft Corporation. All rights reserved.
+
+C:\Users\SS5063902>nope p-vm
+'nope' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\SS5063902>node -vm
+node: bad option: -vm
+
+C:\Users\SS5063902>d:
+
+D:\>mkdir nodeexample
+
+D:\>cd nodeexample
+
+D:\nodeexample>npm i typescript
+npm ERR! code EAI_AGAIN
+npm ERR! errno EAI_AGAIN
+npm ERR! request to https://registry.npmjs.org/typescript failed, reason: getaddrinfo EAI_AGAIN registry.npmjs.org
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\SS5063902\AppData\Roaming\npm-cache\_logs\2020-06-09T09_40_27_008Z-debug.log
+
+D:\nodeexample>   npm config set proxy http://SS5063902:atos123$@172.26.30.153:8080
+
+D:\nodeexample>npm config set https-proxy http://SS5063902:atos123$@172.26.30.153:8080
+
+D:\nodeexample>npm i typescript
+npm ERR! code SELF_SIGNED_CERT_IN_CHAIN
+npm ERR! errno SELF_SIGNED_CERT_IN_CHAIN
+npm ERR! request to https://registry.npmjs.org/typescript failed, reason: self signed certificate in certificate chain
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\SS5063902\AppData\Roaming\npm-cache\_logs\2020-06-09T09_44_20_677Z-debug.log
+
+D:\nodeexample>npm config set strict-ssl false
+
+D:\nodeexample>npm i typescript
+npm WARN saveError ENOENT: no such file or directory, open 'D:\nodeexample\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'D:\nodeexample\package.json'
+npm WARN nodeexample No description
+npm WARN nodeexample No repository field.
+npm WARN nodeexample No README data
+npm WARN nodeexample No license field.
+
++ typescript@3.9.5
+added 1 package from 1 contributor and audited 1 package in 11.335s
+found 0 vulnerabilities
+
+
+D:\nodeexample>npm i -g typescript
+C:\Users\SS5063902\AppData\Roaming\npm\tsserver -> C:\Users\SS5063902\AppData\Roaming\npm\node_modules\typescript\bin\tsserverC:\Users\SS5063902\AppData\Roaming\npm\tsc -> C:\Users\SS5063902\AppData\Roaming\npm\node_modules\typescript\bin\tsc
++ typescript@3.9.5
+added 1 package from 1 contributor in 6.731s
+
+D:\nodeexample>npm i -g @angular/cli
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+C:\Users\SS5063902\AppData\Roaming\npm\ng -> C:\Users\SS5063902\AppData\Roaming\npm\node_modules\@angular\cli\bin\ng
+
+> @angular/cli@9.1.7 postinstall C:\Users\SS5063902\AppData\Roaming\npm\node_modules\@angular\cli
+> node ./bin/postinstall/script.js
+
+? Would you like to share anonymous usage data with the Angular Team at Google under
+Google’s Privacy Policy at https://policies.google.com/privacy? For more details and
+how to change this setting, see http://angular.io/analytics. No
++ @angular/cli@9.1.7
+added 271 packages from 206 contributors in 279.246s
+
+D:\nodeexample>ng
+'ng' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\nodeexample>
+
+
+
+                                                             
+
+                                                                  Node command prompt
+
+
+
+Your environment has been set up for using Node.js 12.13.0 (x64) and npm.
+
+C:\Users\SS5063902>ng
+Available Commands:
+  add Adds support for an external library to your project.
+  analytics Configures the gathering of Angular CLI usage metrics. See https://angular.io/cli/usage-analytics-gathering.  build (b) Compiles an Angular app into an output directory named dist/ at the given output path. Must be executed from within a workspace directory.
+  deploy Invokes the deploy builder for a specified project or for the default project in the workspace.
+  config Retrieves or sets Angular configuration values in the angular.json file for the workspace.
+  doc (d) Opens the official Angular documentation (angular.io) in a browser, and searches for a given keyword.
+  e2e (e) Builds and serves an Angular app, then runs end-to-end tests using Protractor.
+  generate (g) Generates and/or modifies files based on a schematic.
+  help Lists available commands and their short descriptions.
+  lint (l) Runs linting tools on Angular app code in a given project folder.
+  new (n) Creates a new workspace and an initial Angular app.
+  run Runs an Architect target with an optional custom builder configuration defined in your project.
+  serve (s) Builds and serves your app, rebuilding on file changes.
+  test (t) Runs unit tests in a project.
+  update Updates your application and its dependencies. See https://update.angular.io/
+  version (v) Outputs Angular CLI version.
+  xi18n (i18n-extract) Extracts i18n messages from source code.
+
+For more detailed help run "ng [command name] --help"
+
+C:\Users\SS5063902>ng version
+
+     _                      _                 ____ _     ___
+    / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
+   / ? \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
+  / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
+ /_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
+                |___/
+
+
+Angular CLI: 9.1.7
+Node: 12.13.0
+OS: win32 x64
+
+Angular:
+...
+Ivy Workspace:
+
+Package                      Version
+------------------------------------------------------
+@angular-devkit/architect    0.901.7
+@angular-devkit/core         9.1.7
+@angular-devkit/schematics   9.1.7
+@schematics/angular          9.1.7
+@schematics/update           0.901.7
+rxjs                         6.5.4
+
+
+C:\Users\SS5063902>d
+'d' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\SS5063902>d:
+
+D:\>mkdie angular_proj
+'mkdie' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\>mkdir angular_proj
+
+D:\>cd angular_proj
+
+D:\angular_proj>ng new "my_app"
+? Would you like to add Angular routing? No
+? Which stylesheet format would you like to use? CSS
+Project name "my_app" is not valid. New project names must start with a letter, and must contain only alphanumeric characters or dashes. When adding a dash the segment after the dash must also start with a letter.
+my_app
+^
+
+D:\angular_proj>ng new "appl"
+? Would you like to add Angular routing? No
+? Which stylesheet format would you like to use? CSS
+CREATE appl/angular.json (3550 bytes)
+CREATE appl/package.json (1237 bytes)
+CREATE appl/README.md (1021 bytes)
+CREATE appl/tsconfig.json (489 bytes)
+CREATE appl/tslint.json (3125 bytes)
+CREATE appl/.editorconfig (274 bytes)
+CREATE appl/.gitignore (631 bytes)
+CREATE appl/browserslist (429 bytes)
+CREATE appl/karma.conf.js (1016 bytes)
+CREATE appl/tsconfig.app.json (210 bytes)
+CREATE appl/tsconfig.spec.json (270 bytes)
+CREATE appl/src/favicon.ico (948 bytes)
+CREATE appl/src/index.html (290 bytes)
+CREATE appl/src/main.ts (372 bytes)
+CREATE appl/src/polyfills.ts (2835 bytes)
+CREATE appl/src/styles.css (80 bytes)
+CREATE appl/src/test.ts (753 bytes)
+CREATE appl/src/assets/.gitkeep (0 bytes)
+CREATE appl/src/environments/environment.prod.ts (51 bytes)
+CREATE appl/src/environments/environment.ts (662 bytes)
+CREATE appl/src/app/app.module.ts (314 bytes)
+CREATE appl/src/app/app.component.html (25725 bytes)
+CREATE appl/src/app/app.component.spec.ts (936 bytes)
+CREATE appl/src/app/app.component.ts (208 bytes)
+CREATE appl/src/app/app.component.css (0 bytes)
+CREATE appl/e2e/protractor.conf.js (808 bytes)
+CREATE appl/e2e/tsconfig.json (214 bytes)
+CREATE appl/e2e/src/app.e2e-spec.ts (637 bytes)
+CREATE appl/e2e/src/app.po.ts (301 bytes)
+
+? Packages installed successfully.
+'git' is not recognized as an internal or external command,
+operable program or batch file.
+
+D:\angular_proj>npm start
+npm ERR! code ENOENT
+npm ERR! syscall open
+npm ERR! path D:\angular_proj\package.json
+npm ERR! errno -4058
+npm ERR! enoent ENOENT: no such file or directory, open 'D:\angular_proj\package.json'
+npm ERR! enoent This is related to npm not being able to find a file.
+npm ERR! enoent
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\SS5063902\AppData\Roaming\npm-cache\_logs\2020-06-09T11_32_38_093Z-debug.log
+
+D:\angular_proj>ng serve
+The serve command requires to be run in an Angular project, but a project definition could not be found.
+
+D:\angular_proj>cd appl
+
+D:\angular_proj\appl>ng serve
+Compiling @angular/core : es2015 as esm2015
+Compiling @angular/compiler/testing : es2015 as esm2015
+Compiling @angular/animations : es2015 as esm2015
+Compiling @angular/animations/browser : es2015 as esm2015
+Compiling @angular/common : es2015 as esm2015
+Compiling @angular/core/testing : es2015 as esm2015
+Compiling @angular/platform-browser : es2015 as esm2015
+Compiling @angular/common/http : es2015 as esm2015
+Compiling @angular/common/testing : es2015 as esm2015
+Compiling @angular/platform-browser-dynamic : es2015 as esm2015
+Compiling @angular/platform-browser/testing : es2015 as esm2015
+Compiling @angular/router : es2015 as esm2015
+Compiling @angular/animations/browser/testing : es2015 as esm2015
+Compiling @angular/common/http/testing : es2015 as esm2015
+Compiling @angular/forms : es2015 as esm2015
+Compiling @angular/platform-browser/animations : es2015 as esm2015
+Compiling @angular/platform-browser-dynamic/testing : es2015 as esm2015
+Compiling @angular/router/testing : es2015 as esm2015
+
+chunk {main} main.js, main.js.map (main) 57.7 kB [initial] [rendered]
+chunk {polyfills} polyfills.js, polyfills.js.map (polyfills) 141 kB [initial] [rendered]
+chunk {runtime} runtime.js, runtime.js.map (runtime) 6.15 kB [entry] [rendered]
+chunk {styles} styles.js, styles.js.map (styles) 12.4 kB [initial] [rendered]
+chunk {vendor} vendor.js, vendor.js.map (vendor) 2.71 MB [initial] [rendered]
+Date: 2020-06-09T11:36:08.689Z - Hash: 21154e891d71fb9460d2 - Time: 24539ms
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+: Compiled successfully.
