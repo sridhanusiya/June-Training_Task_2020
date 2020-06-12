@@ -1,0 +1,78 @@
+typescript
+components
+two way binding
+
+
+
+app.component.ts-->contains data fr ui-->contains app-root(this can also be anything)
+app.component.spec.ts-->
+app.component.css-->style
+app.component.html
+
+app.module.ts---->root module(can have any name)
+
+index.html is the only page which goes to server
+
+selector is a tag name(can have only one folder like app)
+template and template url which points to the page
+=============================
+
+main.ts
+|||
+platformBrowserDynamic-->class
+
+module class
+@NgModule({-
+declartion:[ AppComponent],
+imports:[BrowserModule],->browsermodule is the mandatory import that should be dones
+providers:[],//inject dependency here -->any service which is used by all component thenthat service can be given inside provide
+bootstrap:[AppComponent]})-->decorator--will have data inside (similar to annotaions in java)
+class Shape{
+}
+any module u can create and give that name in main.ts that will be a root module.
+
+{{}}-->interpolation symbol
+=========================================
+property binding-->from component to ui-->[] used
+event binding-->from ui to component->(event handling) used
+
+DOM<--------Component
+[property]="value"
+DOM--------->Component
+(event)="handler"
+============================
+in hmtl
+<input [type]="textBoxType" value="i am hided">
+in app.component
+tetxBoxType="text"/"password"
+
+
+
+e.target.value-->gives complete value=hello
+
+Two Binding-> imports formsModule in root module
+[()]->banana symbol for ng model
+==============================================================================================================================================================
+11-06-2020
+
+Ngmodel is directive
+ng g c app-name--->for component
+
+==================================================================================================================
+12/06/2020
+
+[npm install bootstarp --save ]or else add the bootstrap 3links in html file 
+npm install jquery --save
+in angular.json file v can add the style which we want can keep bootstrap
+in script v can have jquery
+ 
+ng serve -o  -----> automatically the localhost wil opened on the server
+
+
+in routing
+
+pipe->helps to format data
+can create custom files
+
+for link ->routerLink
+routerOutlet->vil display the content in the router link
