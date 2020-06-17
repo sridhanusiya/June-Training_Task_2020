@@ -21,6 +21,7 @@
    <div class="col mx-auto col-md-8 mt-3 text-center">
     <div class="alert text-capitalize feedback">
    <h3 class="text-capitalize mb-4"> Add an item</h3>
+
     </div>
     <!-- form -->
     <form id="itemForm" class="my-3">
@@ -56,6 +57,14 @@
    </div>
   </div>
  </div>
+
+ <script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <script>
 //add an eventListener to the from
 const form = document.querySelector('#itemForm'); // select form
@@ -106,6 +115,8 @@ const handleItem = function(itemName){
     })
 }
 
+
+
 const removeItem = function(item){
     console.log(item);
     const removeIndex = (todoItems.indexOf(item));
@@ -117,7 +128,8 @@ const getList = function(todoItems){
     itemList.innerHTML = '';
 console.log(todoItems);
         todoItems.forEach(function(item){
-            itemList.insertAdjacentHTML('beforeend', `<div class="item my-3"><h5 class="item-name text-capitalize">${item.name} | ${item.price} | ${item.desc} | ${item.src}| ${new Date()} </h5><div class="item-icons">       <a href="#" class="complete-item">done</a>
+            itemList.insertAdjacentHTML('beforeend', `<div class="item my-3"><h5 class="item-name text-capitalize">${item.name} | ${item.price} | ${item.desc} | ${item.src}| ${new Date()} </h5><div class="item-icons">   
+    <a href="#" class="complete-item">done</a>
      
  <a href="#" class="edit-item">edit</a>
        <a href="#" class="delete-item">delete</a></div></div>` );
@@ -160,11 +172,11 @@ const itemFile =itemInput3.value;
                 feedback.classList.remove('showItem');
                 }, 3000);
     } else {
-var product={name:itemName , price: itemPrice, desc: itemDesc, date1:new Date(), src: itemFile};
+var product={name:itemName , price: itemPrice, desc: itemDesc, date1:new Date(), img: itemFile};
 var min= new Date().getMinutes();
 setTimeout(
 function(){
-alert("pending!!")
+alert("product recently added"  + itemName)
           }, 30000);
 
 
